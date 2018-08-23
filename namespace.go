@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"regexp"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine/internal"
+	"github.com/sunnogo/appengine/internal"
 )
 
 // Namespace returns a replacement context that operates within the given namespace.

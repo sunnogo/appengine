@@ -10,7 +10,7 @@ import (
 	"net"
 	"time"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 )
 
 // Dial connects to the address addr on the network protocol.

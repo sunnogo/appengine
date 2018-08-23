@@ -10,9 +10,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine/internal"
+	"github.com/sunnogo/appengine/internal"
 )
 
 func TestKeyEncoding(t *testing.T) {

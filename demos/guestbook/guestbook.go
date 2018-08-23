@@ -12,12 +12,12 @@ import (
 	"net/http"
 	"time"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/datastore"
-	"google.golang.org/appengine/log"
-	"google.golang.org/appengine/user"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/datastore"
+	"github.com/sunnogo/appengine/log"
+	"github.com/sunnogo/appengine/user"
 )
 
 var initTime time.Time

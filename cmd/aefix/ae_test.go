@@ -41,10 +41,10 @@ import (
 	"net/http"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/datastore"
-	"google.golang.org/appengine/log"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/datastore"
+	"github.com/sunnogo/appengine/log"
 )
 
 func f(w http.ResponseWriter, r *http.Request) {
@@ -74,8 +74,8 @@ func LogSomething(c2 appengine.Context) {
 		Out: `package foo
 
 import (
-	"golang.org/x/net/context"
-	"google.golang.org/appengine/log"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/appengine/log"
 )
 
 func LogSomething(c2 context.Context) {
@@ -102,8 +102,8 @@ func f(ctx appengine.Context) {
 		Out: `package foo
 
 import (
-	"golang.org/x/net/context"
-	"google.golang.org/appengine/taskqueue"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/appengine/taskqueue"
 )
 
 func f(ctx context.Context) {
@@ -131,8 +131,8 @@ func f(ctx appengine.Context, w io.Writer) {
 		Out: `package foo
 
 import (
-	"golang.org/x/net/context"
-	"google.golang.org/appengine"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/appengine"
 	"io"
 )
 

@@ -17,8 +17,8 @@ import (
 	"regexp"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/appengine/internal"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/appengine/internal"
 )
 
 // NewInstance launches a running instance of api_server.py which can be used
@@ -279,6 +279,6 @@ handlers:
 
 const appSource = `
 package main
-import "google.golang.org/appengine"
+import "github.com/sunnogo/appengine"
 func main() { appengine.Main() }
 `

@@ -8,10 +8,10 @@ package file
 import (
 	"fmt"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine/internal"
-	aipb "google.golang.org/appengine/internal/app_identity"
+	"github.com/sunnogo/appengine/internal"
+	aipb "github.com/sunnogo/appengine/internal/app_identity"
 )
 
 // DefaultBucketName returns the name of this application's

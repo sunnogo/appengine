@@ -24,12 +24,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/golang/protobuf/proto"
-	netcontext "golang.org/x/net/context"
+	"github.com/sunnogo/protobuf/proto"
+	netcontext "github.com/sunnogo/net/context"
 
-	basepb "google.golang.org/appengine/internal/base"
-	logpb "google.golang.org/appengine/internal/log"
-	remotepb "google.golang.org/appengine/internal/remote_api"
+	basepb "github.com/sunnogo/appengine/internal/base"
+	logpb "github.com/sunnogo/appengine/internal/log"
+	remotepb "github.com/sunnogo/appengine/internal/remote_api"
 )
 
 const (

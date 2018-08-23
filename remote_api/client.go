@@ -20,11 +20,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/protobuf/proto"
-	"golang.org/x/net/context"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine/internal"
-	pb "google.golang.org/appengine/internal/remote_api"
+	"github.com/sunnogo/appengine/internal"
+	pb "github.com/sunnogo/appengine/internal/remote_api"
 )
 
 // Client is a connection to the production APIs for an application.

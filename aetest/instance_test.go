@@ -4,11 +4,11 @@ import (
 	"os"
 	"testing"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/datastore"
-	"google.golang.org/appengine/internal"
-	"google.golang.org/appengine/memcache"
-	"google.golang.org/appengine/user"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/datastore"
+	"github.com/sunnogo/appengine/internal"
+	"github.com/sunnogo/appengine/memcache"
+	"github.com/sunnogo/appengine/user"
 )
 
 func TestBasicAPICalls(t *testing.T) {

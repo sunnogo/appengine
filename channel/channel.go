@@ -22,17 +22,17 @@ Deprecated: The Channel API feature has been deprecated and is going to be remov
 
 https://cloud.google.com/appengine/docs/deprecations/channel
 */
-package channel // import "google.golang.org/appengine/channel"
+package channel // import "github.com/sunnogo/appengine/channel"
 
 import (
 	"encoding/json"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/internal"
-	basepb "google.golang.org/appengine/internal/base"
-	pb "google.golang.org/appengine/internal/channel"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/internal"
+	basepb "github.com/sunnogo/appengine/internal/base"
+	pb "github.com/sunnogo/appengine/internal/channel"
 )
 
 // Create creates a channel and returns a token for use by the client.

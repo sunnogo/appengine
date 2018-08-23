@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"os"
 
-	netcontext "golang.org/x/net/context"
+	netcontext "github.com/sunnogo/net/context"
 )
 
 // These functions are implementations of the wrapper functions

@@ -7,7 +7,7 @@ package appengine
 import (
 	"testing"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 )
 
 func TestNamespaceValidity(t *testing.T) {

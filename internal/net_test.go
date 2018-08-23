@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	netcontext "golang.org/x/net/context"
+	netcontext "github.com/sunnogo/net/context"
 
-	basepb "google.golang.org/appengine/internal/base"
+	basepb "github.com/sunnogo/appengine/internal/base"
 )
 
 func TestDialLimit(t *testing.T) {

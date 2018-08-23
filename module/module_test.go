@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/sunnogo/protobuf/proto"
 
-	"google.golang.org/appengine/internal/aetesting"
-	pb "google.golang.org/appengine/internal/modules"
+	"github.com/sunnogo/appengine/internal/aetesting"
+	pb "github.com/sunnogo/appengine/internal/modules"
 )
 
 const version = "test-version"

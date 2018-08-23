@@ -7,10 +7,10 @@ package datastore
 import (
 	"errors"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine/internal"
-	pb "google.golang.org/appengine/internal/datastore"
+	"github.com/sunnogo/appengine/internal"
+	pb "github.com/sunnogo/appengine/internal/datastore"
 )
 
 func init() {

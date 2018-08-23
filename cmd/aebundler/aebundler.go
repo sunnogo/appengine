@@ -43,7 +43,7 @@ var (
 
 const (
 	newMain = `package main
-import "google.golang.org/appengine"
+import "github.com/sunnogo/appengine"
 func main() {
 	appengine.Main()
 }

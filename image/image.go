@@ -3,17 +3,17 @@
 // license that can be found in the LICENSE file.
 
 // Package image provides image services.
-package image // import "google.golang.org/appengine/image"
+package image // import "github.com/sunnogo/appengine/image"
 
 import (
 	"fmt"
 	"net/url"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/internal"
-	pb "google.golang.org/appengine/internal/image"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/internal"
+	pb "github.com/sunnogo/appengine/internal/image"
 )
 
 type ServingURLOptions struct {

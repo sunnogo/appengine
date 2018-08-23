@@ -5,10 +5,10 @@
 package user
 
 import (
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine/internal"
-	pb "google.golang.org/appengine/internal/user"
+	"github.com/sunnogo/appengine/internal"
+	pb "github.com/sunnogo/appengine/internal/user"
 )
 
 // CurrentOAuth returns the user associated with the OAuth consumer making this

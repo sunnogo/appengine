@@ -22,18 +22,18 @@ To receive messages,
 		// ...
 	}
 */
-package xmpp // import "google.golang.org/appengine/xmpp"
+package xmpp // import "github.com/sunnogo/appengine/xmpp"
 
 import (
 	"errors"
 	"fmt"
 	"net/http"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/internal"
-	pb "google.golang.org/appengine/internal/xmpp"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/internal"
+	pb "github.com/sunnogo/appengine/internal/xmpp"
 )
 
 // Message represents an incoming chat message.

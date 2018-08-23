@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"testing"
 
-	"golang.org/x/net/context"
-	"google.golang.org/appengine/datastore"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/appengine/datastore"
 )
 
 func TestAppIDRE(t *testing.T) {

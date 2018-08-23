@@ -11,11 +11,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/sunnogo/protobuf/proto"
 
-	"google.golang.org/appengine/internal"
-	"google.golang.org/appengine/internal/aetesting"
-	pb "google.golang.org/appengine/internal/datastore"
+	"github.com/sunnogo/appengine/internal"
+	"github.com/sunnogo/appengine/internal/aetesting"
+	pb "github.com/sunnogo/appengine/internal/datastore"
 )
 
 var (

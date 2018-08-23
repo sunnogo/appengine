@@ -10,7 +10,7 @@ import (
 	stdctx "context"
 	"reflect"
 
-	netctx "golang.org/x/net/context"
+	netctx "github.com/sunnogo/net/context"
 )
 
 var (

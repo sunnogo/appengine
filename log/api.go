@@ -7,9 +7,9 @@ package log
 // This file implements the logging API.
 
 import (
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine/internal"
+	"github.com/sunnogo/appengine/internal"
 )
 
 // Debugf formats its arguments according to the format, analogous to fmt.Printf,

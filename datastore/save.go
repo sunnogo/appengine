@@ -11,10 +11,10 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/sunnogo/protobuf/proto"
 
-	"google.golang.org/appengine"
-	pb "google.golang.org/appengine/internal/datastore"
+	"github.com/sunnogo/appengine"
+	pb "github.com/sunnogo/appengine/internal/datastore"
 )
 
 func toUnixMicro(t time.Time) int64 {

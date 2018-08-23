@@ -13,8 +13,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	netctx "golang.org/x/net/context"
-	"google.golang.org/appengine/taskqueue"
+	netctx "github.com/sunnogo/net/context"
+	"github.com/sunnogo/appengine/taskqueue"
 )
 
 var (

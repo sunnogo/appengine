@@ -26,7 +26,7 @@
 //	if err := memcache.Set(c, item1); err != nil {
 //		return err
 //	}
-package memcache // import "google.golang.org/appengine/memcache"
+package memcache // import "github.com/sunnogo/appengine/memcache"
 
 import (
 	"bytes"
@@ -35,12 +35,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/golang/protobuf/proto"
-	"golang.org/x/net/context"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/internal"
-	pb "google.golang.org/appengine/internal/memcache"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/internal"
+	pb "github.com/sunnogo/appengine/internal/memcache"
 )
 
 var (

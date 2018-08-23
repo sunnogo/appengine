@@ -18,12 +18,12 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/encoding/htmlindex"
+	"github.com/sunnogo/text/encoding/htmlindex"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/internal/aetesting"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/internal/aetesting"
 
-	pb "google.golang.org/appengine/internal/blobstore"
+	pb "github.com/sunnogo/appengine/internal/blobstore"
 )
 
 const rbs = readBufferSize

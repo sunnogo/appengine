@@ -9,9 +9,9 @@ package user
 import (
 	"appengine/user"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine/internal"
+	"github.com/sunnogo/appengine/internal"
 )
 
 func Current(ctx context.Context) *User {

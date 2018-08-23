@@ -7,9 +7,9 @@
 package user
 
 import (
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine/internal"
+	"github.com/sunnogo/appengine/internal"
 )
 
 // Current returns the currently logged-in user,

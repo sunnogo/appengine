@@ -9,7 +9,7 @@ package delay
 import (
 	"reflect"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 )
 
 var contextType = reflect.TypeOf((*context.Context)(nil)).Elem()

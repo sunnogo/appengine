@@ -11,13 +11,13 @@ import (
 	"os"
 	"sync"
 
-	"github.com/golang/protobuf/proto"
-	"golang.org/x/net/context"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/net/context"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/internal"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/internal"
 
-	blobpb "google.golang.org/appengine/internal/blobstore"
+	blobpb "github.com/sunnogo/appengine/internal/blobstore"
 )
 
 // openBlob returns a reader for a blob. It always succeeds; if the blob does

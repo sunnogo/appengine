@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"golang.org/x/net/context"
-	"google.golang.org/appengine"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/appengine"
 )
 
 // Instance represents a running instance of the development API Server.
